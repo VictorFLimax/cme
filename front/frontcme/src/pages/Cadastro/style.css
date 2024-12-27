@@ -1,0 +1,92 @@
+/* style.css */
+
+/* Estilos principais para a página de cadastro */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Ocupa a altura completa da tela */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f0f0f0; /* Cor de fundo do corpo */
+    font-family: Arial, sans-serif; /* Fonte geral para a página */
+  }
+  
+  .container {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%; /* Isso garante que a largura seja responsiva */
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Estilo para os inputs */
+  input[type="text"],
+  input[type="radio"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+  }
+  
+  /* Estilo específico para os inputs de texto */
+  input[type="text"] {
+    width: 100%;
+  }
+  
+  /* Estilo para os campos de radio */
+  input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  /* Estilo dos rótulos (labels) */
+  label {
+    font-size: 16px;
+    color: #555;
+    margin-right: 10px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Estilo do botão */
+  button {
+    padding: 12px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para a mensagem de erro */
+  .error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
